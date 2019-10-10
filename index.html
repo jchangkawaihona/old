@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<h1> jason testing. Learning how to teach html </h1>
+<h2>This is why when you put your mouse over a button, it doesn’t even show the hyperlink </h2>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+  $(".btn1").click(function(){
+
+    $("p").hide();
+
+  });
+
+  $(".btn2").click(function(){
+
+    $("p").show();
+
+  });
+
+});
+
+</script>
+
+</head>
+
+<body>
+
+
+<p>This is a paragraph.</p>
+
+
+<button class="btn1">Hide</button>
+
+<button class="btn2">Show</button>
+
+
+</body>
+
+</html>
